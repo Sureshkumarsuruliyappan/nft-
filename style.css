@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    border-radius: 11px;
+}
+.promotes::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.promotes-left{
+    float: left;
+}
+.promotes-right{
+    float: right;
+}
+.promotes {
+    color: hsl(178, 100%, 50%);
+    padding: 16px 0;
+}
+.container {
+    max-width: 361px;
+    margin: auto;
+    background-color: hsl(216, 50%, 16%);
+    padding: 19px;
+    border-radius: 18px;
+}
+.nft {
+    background-color: hsl(217, 54%, 11%);
+    padding: 272px 0;
+    font-family: 'Outfit', sans-serif;
+}
+.num {
+    font-size: 20px;
+    padding: 24px 4px;
+    color: #fff;
+}
+.footer-avatar {
+    max-width: 37px;
+    border: 2px solid #ffff;
+    border-radius: 19px;
+    float: left;
+}
+.footer-link{
+    text-decoration: none;
+    color: #ffff;
+    padding: 10px;
+}.section-link{
+    text-decoration: none;
+    color: #ffff;
+}
+.footer-wyvern {
+    color: hsl(215, 51%, 70%);
+    float: left;
+    padding: 9px;
+}
+.para {
+    padding: 0px 0 4px;
+    color: hsl(215, 51%, 70%);
+}
+.footer{
+    padding: 26px 0px 36px;
+}
+hr{
+    background-color: hsl(215, 32%, 27%);
+}
+@media all and (max-width:375px) {
+    .nft {
+        background-color: hsl(217, 54%, 11%);
+        padding: 101px 24px;
+        font-family: 'Outfit', sans-serif;
+    }
+}
